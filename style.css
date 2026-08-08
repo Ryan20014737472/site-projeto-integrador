@@ -198,3 +198,10 @@ nav a{position:relative;padding:.35rem 0;transition:color .2s ease,opacity .2s e
 /* Diagramas de óptica: proporção preservada em desktop e celular. */
 .optics-grid{align-items:start}.optics-grid figure.diagram-card{margin:0;padding:0;overflow:hidden;min-height:0;width:100%;background:#fff}.optics-grid figure.diagram-card img{display:block;width:100%;height:auto;aspect-ratio:auto;object-fit:contain}
 @media(max-width:850px){.optics-grid figure.diagram-card{max-width:620px}.optics-grid figure.diagram-card img{width:100%}}
+
+/* Layout final da seção de óptica: diagramas grandes e legíveis. */
+.optics-grid{grid-template-columns:repeat(2,minmax(0,1fr));align-items:start}
+.optics-grid .optics-copy{grid-column:1/-1}
+.optics-grid figure.diagram-card{width:100%;max-width:none;margin:0;padding:0;overflow:hidden;border-radius:1rem}
+.optics-grid figure.diagram-card img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:contain}
+@media(max-width:850px){.optics-grid{grid-template-columns:1fr}.optics-grid .optics-copy{grid-column:auto}.optics-grid figure.diagram-card{max-width:none}}
