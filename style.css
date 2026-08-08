@@ -1,6 +1,3 @@
-Exit code: 0
-Wall time: 1.4 seconds
-Output:
 :root{--blue:#0077ff;--ink:#06182e;--navy:#082a53;--sky:#dff1ff;--paper:#f7fbff;--muted:#5d7087;--yellow:#ffc928;--font-scale:1}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;font-size:calc(16px * var(--font-scale))}
