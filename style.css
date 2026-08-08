@@ -190,3 +190,7 @@ nav a{position:relative;padding:.35rem 0;transition:color .2s ease,opacity .2s e
 @media(max-width:520px){.section-heading:before{margin-bottom:.8rem}.problem-card,.diagram-card,.optics-copy{border-radius:.7rem}.impact{padding:1.5rem}.sensor{padding:.9rem .4rem}}
 .system-map>.ecosystem-image{display:block;position:relative;z-index:1;width:100%;height:100%;min-height:370px;object-fit:cover;object-position:center}
 @media(max-width:850px){.system-map>.ecosystem-image{min-height:310px}}
+
+/* Imagem principal enviada para a abertura do projeto. */
+.hero-visual{background:url("inicio.jpeg") center/cover no-repeat;transform:none}
+.hero-visual>*{display:none}
