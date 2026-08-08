@@ -1,3 +1,6 @@
+Exit code: 0
+Wall time: 1.4 seconds
+Output:
 :root{--blue:#0077ff;--ink:#06182e;--navy:#082a53;--sky:#dff1ff;--paper:#f7fbff;--muted:#5d7087;--yellow:#ffc928;--font-scale:1}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;font-size:calc(16px * var(--font-scale))}
@@ -180,7 +183,7 @@ nav a{position:relative;padding:.35rem 0;transition:color .2s ease,opacity .2s e
 .hero-visual{border:1px solid #ffffff55;transform:perspective(1000px) rotateY(-3deg);transition:transform .5s ease,box-shadow .5s ease}.hero-visual:hover{transform:perspective(1000px) rotateY(0) translateY(-8px);box-shadow:0 38px 70px #001f4580}.sun{animation:solar-pulse 4s ease-in-out infinite}.signal b:nth-child(3){animation:signal-pulse 1.8s ease-out infinite}@keyframes solar-pulse{50%{transform:scale(1.08);box-shadow:0 0 0 18px #fff2,0 0 70px #fff}}@keyframes signal-pulse{50%{opacity:.35;transform:scale(1.25)}}
 .button{border:1px solid #fff6;transition:transform .2s ease,box-shadow .2s ease,filter .2s ease}.button:hover{transform:translateY(-3px);filter:brightness(1.05);box-shadow:0 16px 34px #0004}.section-heading{position:relative}.section-heading:before{content:"";display:block;width:42px;height:4px;margin-bottom:1.1rem;border-radius:99px;background:linear-gradient(90deg,var(--blue),var(--blue-2))}
 .problem-card,.diagram-card{box-shadow:var(--shadow)}.problem-card{position:relative;overflow:hidden}.problem-card:after{content:"";position:absolute;inset:auto -30% -70% auto;width:150px;height:150px;border-radius:50%;background:radial-gradient(circle,#2aaeff24,transparent 67%);transition:transform .35s ease}.problem-card:hover:after{transform:translate(-30px,-35px)}
-.component{padding-right:1rem;border-radius:.35rem}.component:hover{background:#ffffff0b;padding-left:.7rem}.system-map{box-shadow:inset 0 0 90px #001b3d88,0 24px 50px #0004}.system-map:after{content:"SISTEMA EM CICLO";position:absolute;right:1rem;top:1rem;color:#b8e9ff;font-size:.62rem;font-weight:800;letter-spacing:.14em}
+.component{padding-right:1rem;border-radius:.35rem}.component:hover{background:#ffffff0b;padding-left:.7rem}.system-map{background:url("assets/ciclo.jpeg") center/cover no-repeat;box-shadow:inset 0 0 90px #001b3d88,0 24px 50px #0004}.system-map div,.system-map .line{display:none}.system-map:after{display:none}
 .optics-copy,.diagram-card,.simulator-box{box-shadow:var(--shadow)}.diagram-card{transition:transform .25s ease}.diagram-card:hover{transform:translateY(-5px)}.newton{box-shadow:0 10px 22px #082a5333}
 .flow li{transition:transform .25s ease}.flow li:hover{transform:translateY(-6px)}.flow li:hover span{background:var(--blue);color:#fff;box-shadow:0 0 0 7px #0077ff1c}.sensor{padding:.9rem;border-radius:.7rem;border-bottom-color:transparent}.sensor:hover{background:#fff;box-shadow:var(--shadow)}
 .simulator{background:radial-gradient(circle at 84% 20%,#187bdc55,transparent 24%),linear-gradient(145deg,#061c36,#082a53)}.result-panel{border:1px solid #ffffff22;box-shadow:inset 0 1px #fff2}.controls input{cursor:pointer}.impact{position:relative;overflow:hidden}.impact:before{content:"";position:absolute;inset:0 auto 0 0;width:4px;background:linear-gradient(var(--blue),var(--blue-2));transform:scaleY(.28);transform-origin:top;transition:transform .35s ease}.impact:hover:before{transform:scaleY(1)}
@@ -188,3 +191,4 @@ nav a{position:relative;padding:.35rem 0;transition:color .2s ease,opacity .2s e
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
 @media(max-width:850px){.hero-visual{transform:none}.system-map{min-height:310px}.component:hover{padding-left:0}.topbar.scrolled{backdrop-filter:none}}
 @media(max-width:520px){.section-heading:before{margin-bottom:.8rem}.problem-card,.diagram-card,.optics-copy{border-radius:.7rem}.impact{padding:1.5rem}.sensor{padding:.9rem .4rem}}
+
